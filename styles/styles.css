@@ -1,0 +1,84 @@
+.roundNeptuneP {
+  animation: circleRound 7528s linear infinite;
+}
+.roundNeptune {
+  animation: circleRound 2.4s linear infinite;
+}
+.roundUranusP {
+  animation: circleRound 3832s linear infinite;
+}
+.roundUranus {
+  animation: circleRound 2.5s linear infinite;
+}
+.roundSaturnP {
+  animation: circleRound 1322s linear infinite;
+}
+.roundSaturn {
+  animation: circleRound 2.25s linear infinite;
+}
+.roundJupiterP {
+  animation: circleRound 5045s linear infinite;
+}
+.roundJupiter {
+  animation: circleRound 2s linear infinite;
+}
+.roundMarsP {
+  animation: circleRound 85s linear infinite;
+}
+.roundMars {
+  animation: circleRound 3s linear infinite;
+}
+.roundEarthP {
+  animation: circleRound 45s linear infinite;
+}
+.roundEarth {
+  animation: circleRound 3s linear infinite;
+}
+.roundVenusP {
+  animation: circleRound 21s linear infinite;
+}
+.roundVenus {
+  animation: circleRound 35s linear infinite;
+}
+.roundMercuryP {
+  animation: circleRound 11s linear infinite;
+}
+.roundMercury {
+  animation: circleRound 9s linear infinite;
+}
+.roundSunP {
+  animation: circleRound 3s linear infinite;
+}
+.roundSun {
+  animation: circleRound 3s linear infinite;
+}
+
+@keyframes circleRound {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes circleRound2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(115%);
+  }
+}
+
+.color {
+  width: calc();
+}
